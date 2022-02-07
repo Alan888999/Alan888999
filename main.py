@@ -1,5 +1,4 @@
 a = int(input("enter first number: "))
-b = int(input("enter second number: "))
-c = int(input("enter third number: "))
-d = int(input("enter forth number: "))
-print(((a+b)+(c+d))/2)
+b = int(a + 1)
+c = int(a - 1)
+print("After", a, "comes number ", b, "before", a, "comes number ", c)
